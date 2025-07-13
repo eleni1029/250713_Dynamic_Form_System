@@ -1,0 +1,58 @@
+{
+  "projects": [
+    {
+      "id": "bmi-calculator",
+      "name": "BMI計算器",
+      "description": "身體質量指數計算工具",
+      "path": "/projects/bmi-calculator",
+      "component": "BMICalculator",
+      "enabled": true,
+      "version": "1.0.0",
+      "author": "Dynamic Form System",
+      "category": "健康計算",
+      "requiredPermissions": ["bmi_access"],
+      "metadata": {
+        "saveLastInput": true,
+        "saveHistory": false,
+        "maxInputFields": 10
+      }
+    },
+    {
+      "id": "tdee-calculator",
+      "name": "TDEE計算器",
+      "description": "每日總能量消耗計算工具",
+      "path": "/projects/tdee-calculator",
+      "component": "TDEECalculator",
+      "enabled": true,
+      "version": "1.0.0",
+      "author": "Dynamic Form System",
+      "category": "健康計算",
+      "requiredPermissions": ["tdee_access"],
+      "metadata": {
+        "saveLastInput": true,
+        "saveHistory": false,
+        "maxInputFields": 15
+      }
+    }
+  ],
+  "categories": [
+    {
+      "id": "health",
+      "name": "健康計算",
+      "description": "健康相關的計算工具",
+      "icon": "health"
+    }
+  ],
+  "permissions": [
+    {
+      "id": "bmi_access",
+      "name": "BMI計算器訪問權限",
+      "description": "允許用戶使用BMI計算器"
+    },
+    {
+      "id": "tdee_access",
+      "name": "TDEE計算器訪問權限",
+      "description": "允許用戶使用TDEE計算器"
+    }
+  ]
+}

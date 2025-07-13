@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(chmod:*)",
+      "Bash(brew services:*)",
+      "Bash(/opt/homebrew/opt/postgresql@17/bin/createdb:*)",
+      "Bash(npm run:*)",
+      "Bash(/opt/homebrew/opt/postgresql@17/bin/createuser:*)",
+      "Bash(/opt/homebrew/opt/postgresql@17/bin/psql -U postgres -d dynamic_form_system -c \"\\l\")",
+      "Bash(rm:*)",
+      "Bash(psql:*)",
+      "Bash(npm install:*)"
+    ],
+    "deny": []
+  }
+}
